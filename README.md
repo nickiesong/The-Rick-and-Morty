@@ -3,6 +3,10 @@ A [Create React App](https://create-react-app.dev/) project that consumes public
 
 ## Demo
 
+https://the-rickandmorty.netlify.app/
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/abe80f16-7981-4a03-8b82-01514e1f7f85/deploy-status)](https://app.netlify.com/sites/the-rickandmorty/deploys)
+
 ## Remarks
 1. Whole list of R&M characters
 2. Pagination and character search (by name, for now)
