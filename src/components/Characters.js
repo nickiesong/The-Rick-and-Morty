@@ -29,12 +29,9 @@ export default function Characters() {
     setSearchParams(temp);
   };
 
-  const onChangePage = useCallback(
-    (e, page) => {
-      setOptions({ ...options, pageNumber: page });
-    },
-    [options],
-  );
+  const onChangePage = (e, page) => {
+    setOptions({ ...options, pageNumber: page });
+  };
 
   const onChangeName = useCallback((name) => {
     setOptions({ ...initialOptions, characterName: name, pageNumber: 1 });
