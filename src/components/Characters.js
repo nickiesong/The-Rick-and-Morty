@@ -3,7 +3,7 @@ import { useSearchParams } from 'react-router-dom';
 
 import CharacterSearch from './CharacterSearch';
 import CharactersPagination from './CharactersPagination';
-import CharactersList from './CharactersList';
+import CharactersWrapper from './CharactersWrapper';
 import { useFetchCharacters } from '../hooks';
 
 const initialOptions = {
@@ -43,7 +43,7 @@ export default function Characters() {
 
       const data = await fetchCharacters(options.characterName, options.pageNumber);
       if (!data) return;
-      
+
       setCharacters(data.characters);
       delete data.characters;
       setOptions((prevOptions) => ({
@@ -63,7 +63,7 @@ export default function Characters() {
     <>
       <CharacterSearch {...{ characterName: options.characterName, onChangeName }} />
       <CharactersPagination {...paginationProps} />
-      <CharactersList {...{ characters, hasError, isLoading }} />
+      <CharactersWrapper {...{ characters, hasError, isLoading }} />
       <CharactersPagination {...paginationProps} />
     </>
   );
