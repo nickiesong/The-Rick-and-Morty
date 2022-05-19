@@ -15,4 +15,4 @@ https://the-rickandmorty.netlify.app/
 5. Unit/integration tests using [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 
 ## Rooms for improvement? Definitely.
-Do you see anything unorthodox or unreasonable? I am humbled. Looking forward to your feedback.
+Do you see anything unorthodox or unreasonable? I am humbled. Please create a PR or [contact me](mailto:nikol.song.dev@gmail.com) directly for any concerns or suggestions you have.
