@@ -65,7 +65,7 @@ export default function App() {
       </StickyContent>
       <AppFooter>
         <CopyrightInfo>
-          © 2022&nbsp;
+          &copy; 2022&nbsp;
           <a href='https://www.linkedin.com/in/nickiesong' target='_blank' rel='noreferrer'>
             Nicholas Song
           </a>
